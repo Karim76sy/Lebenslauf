@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+line-height: 2;
+}
+.navbar{
+
+    background-color: rgba(13, 8, 77, 0);
+    height: 55px;
+    position: fixed;
+    width: 100%;
+}    
+.navordnung{
+    float: right;
+}
+.navordnung li{
+    display: inline-block;
+}
+.navordnung li a{
+                color: rgb(255, 254, 254, 222);
+                margin: 20px;
+                text-decoration: none;
+}
+.navordnung li a:hover{
+    color: rgb(255, 0, 0);
+}
+.text-center{
+    text-align: center;
+    color: rgb(241, 234, 234,444);
+}
+.karrom{
+    
+    background-image: url("../img/giphy.gif");
+    background-repeat: no-repeat;
+    color: rgb(61, 56, 56);
+    background-position:right;
+    background-size: cover;
+    padding: 100px;
+}
+.karom{
+    border: 1cm;
+    background-color: rgb(25, 245, 454,);
+    padding: 30px 100px 30px;
+    
+}
+#root{
+    width: 80%;
+}
+#boot{
+    width: 100%;
+}
